@@ -1,9 +1,160 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "alunos": [
+    {
+      "personId": 1,
+      "personName": "João Silva",
+      "trilha": "Front-end",
+      "email": "joao.silva@dbccompany.com.br",
+      "cv": "https://www.figma.com/file/h7CgWYIUVmDhgH7I9uH89M/PDI---DBC?type=design&node-id=0-1&mode=design&t=cnhhc2w05UEUNELf-0",
+      "modulos": [
+        {
+          "moduleName": "HTML",
+          "tasks": [
+            {
+              "taskName": "Task 01 - Estrutura Básica do HTML",
+              "taskDescription": "Nesta tarefa, os alunos aprenderam sobre a estrutura básica de um documento HTML, incluindo as tags <html>, <head> e <body>. Eles praticaram a criação de um documento HTML simples e entenderam a importância de cada seção. O aluno demonstrou compreensão adequada da estrutura básica do HTML e foi capaz de criar um documento HTML válido.",
+              "nota": 40
+            },
+            {
+              "taskName": "Task 02 - Criando um Formulário Simples",
+              "taskDescription": "Nesta tarefa, os alunos exploraram a criação de formulários em HTML. Eles aprenderam sobre diferentes tipos de elementos de formulário, como <input>, <textarea>, <select>, e como utilizá-los para coletar informações do usuário.",
+              "nota": 20
+            },
+            {
+              "taskName": "Task 03 - Utilizando Tags Semânticas",
+              "taskDescription": "Nesta tarefa, os alunos foram introduzidos às tags semânticas do HTML, como <header>, <footer>, <nav>, <article>, <section> e <aside>. Eles aprenderam a aplicar essas tags em um documento HTML para melhorar a estrutura e a acessibilidade.",
+              "nota": 80
+            }
+          ],
+          "feedBacks": [
+            {
+              "feedBackTecnico": "O aluno demonstrou compreensão sobre o uso de tags semânticas e foi capaz de aplicá-las corretamente em um documento HTML para melhorar a sua estrutura e legibilidade."
+            }
+          ]
+        },
+        {
+          "moduleName": "CSS",
+          "tasks": [
+            {
+              "taskName": "Task 01 - Estilizando Elementos Básicos",
+              "taskDescription": "Nesta tarefa, os alunos foram introduzidos aos conceitos básicos de CSS e aprenderam a aplicar estilos a elementos HTML usando seletores simples, propriedades de estilo e valores.",
+              "nota": 80
+            },
+            {
+              "taskName": "Task 02 - Criando Layouts com CSS",
+              "taskDescription": "Nesta tarefa, os alunos exploraram técnicas de layout em CSS, incluindo posicionamento, floats e flexbox. Eles aprenderam a criar layouts responsivos e fluidos para páginas da web.",
+              "nota": 10
+            }
+          ],
+          "feedBacks": [
+            {
+              "feedBackTecnico": "O aluno demonstrou habilidade em aplicar transições suaves e animações a elementos HTML, adicionando dinamismo e interatividade às páginas da web."
+            }
+          ]
+        },
+        {
+          "moduleName": "JavaScript",
+          "tasks": [
+            {
+              "taskName": "Introdução ao JS",
+              "taskDescription": "Nesta tarefa, os alunos foram introduzidos aos conceitos básicos do JavaScript, incluindo variáveis, tipos de dados, operadores e estruturas de controle. Eles aprenderam a escrever scripts simples para manipular elementos HTML e a interagir com o usuário por meio de alertas e prompts.",
+              "nota": 40
+            },
+            {
+              "taskName": "Funções em JS",
+              "taskDescription": "Durante esta tarefa, os alunos exploraram o conceito de funções em JavaScript. Eles aprenderam a declarar funções, passar parâmetros, e retornar valores. Além disso, praticaram a criação de funções de usuário personalizadas para realizar operações específicas e reutilizáveis em seus programas.",
+              "nota": 70
+            },
+        {
+              "taskName": "Array em JS",
+              "taskDescription": "Nesta tarefa, os alunos foram apresentados ao conceito de array em JavaScript. Eles aprenderam a criar arrays, acessar elementos individuais, modificar e percorrer arrays usando loops. Além disso, praticaram o uso de métodos de array, como push(), pop(), shift() e unshift(), para adicionar e remover elementos dinamicamente.",
+              "nota": 90
+            }
+          ],
+          "feedBacks": [
+            {
+              "feedBackTecnico":  "O aluno demonstrou um entendimento sólido dos conceitos básicos de JavaScript durante o módulo. Sua capacidade de resolver problemas e implementar lógica de programação utilizando JavaScript foi bastante satisfatória. Ele mostrou habilidade em lidar com estruturas de controle, manipulação de arrays e objetos, além de compreender os princípios de funções e escopo. No entanto, sugiro que o aluno pratique mais exercícios desafiadores para fortalecer suas habilidades em algoritmos e lógica de programação, e também explora conceitos mais avançados, como closures, promessas e programação assíncrona, para se tornar um programador JavaScript ainda mais competente."
+            }
+      
+          ]
+        },
+        {
+          "moduleName": "React",
+          "tasks": [
+            {
+              "taskName": "Task 01 - Início do Projeto React",
+              "taskDescription": "Desenvolvimento inicial do layout e estrutura básica utilizando React.",
+              "nota": 40
+            },
+            {
+              "taskName": "Task 02 - Interatividade com React",
+              "taskDescription": "Implementação de funcionalidades básicas de interação do usuário com componentes React.",
+              "nota": 30
+            },
+            {
+              "taskName": "Task 03 - Integração e Gerenciamento de Estado",
+              "taskDescription": "Integração de APIs externas e gerenciamento de estado avançado em componentes React.",
+              "nota": 50
+            },
+            {
+              "taskName": "Task 04 - Refatoração e Otimização",
+              "taskDescription": "Refatoração e otimização de código existente em componentes React.",
+              "nota": 40
+            },
+            {
+              "taskName": "Task 05 - Componentes Complexos e Responsivos",
+              "taskDescription": "Desenvolvimento de componentes complexos e responsivos em aplicações React.",
+              "nota": 80
+            },
+            {
+              "taskName": "Task 06 - Testes para Componentes React",
+              "taskDescription": "Implementação de testes unitários e de integração para componentes React.",
+              "nota": 90
+            }
+          ],
+          "feedBacks": [
+            {
+              "feedBackTecnico":  "O aluno demonstrou um bom entendimento dos conceitos fundamentais do React durante o módulo. Sua capacidade de compreender e aplicar os princípios de componentização, estado e ciclo de vida foi notável. Além disso, sua habilidade em desenvolver componentes complexos e interativos mostra um bom domínio da biblioteca React. No entanto, sugiro que o aluno continue explorando e praticando conceitos avançados, como o uso de Context API, Hooks e gerenciamento de estado global, para aprimorar ainda mais suas habilidades em React."
+            }
+          ]
+        },
+        {
+          "moduleName": "Context API",
+          "tasks": [
+            {
+              "taskName": "Task 01 - Introdução à Context API",
+              "taskDescription": "O aluno demonstrou compreensão sólida dos conceitos básicos da Context API, incluindo sua utilidade e aplicação em projetos React.",
+              "nota": 40
+            },
+            {
+              "taskName": "Task 02 - Implementação de Contexto",
+              "taskDescription": "O aluno conseguiu implementar com sucesso a Context API em cenários simples, demonstrando compreensão dos conceitos básicos de compartilhamento de estado entre componentes.",
+              "nota": 30
+            },
+            {
+              "taskName": "Task 03 - Uso Avançado da Context API",
+              "taskDescription": "O aluno explorou os recursos avançados da Context API, como o uso de múltiplos contextos e a criação de Context Providers personalizados.",
+              "nota": 80
+            },
+            {
+              "taskName": "Task 01 - Introdução ao StyledComponents",
+              "taskDescription": "O aluno demonstrou uma compreensão sólida dos conceitos básicos por trás do StyledComponents, incluindo a criação e aplicação de estilos em componentes React.",
+              "nota": 90
+            },
+            {
+              "taskName": "Task 02 - Estilização Avançada com StyledComponents",
+              "taskDescription": "O aluno explorou recursos avançados do StyledComponents, como estilização condicional, temas e reutilização de estilos em componentes complexos.",
+              "nota": 100
+            }
+          ],
+          "feedBacks": [
+            {
+              "feedBackTecnico":  "Durante as tarefas relacionadas ao StyledComponents e à Context API, o aluno apresentou um desempenho notável. Ao lidar com o StyledComponents, ele demonstrou habilidades excepcionais na estilização de componentes React, aplicando princípios de design de forma criativa e coesa para melhorar a usabilidade das interfaces desenvolvidas. Sua compreensão dos conceitos fundamentais permitiu que ele criasse estilos consistentes e organizados, recebendo feedbacks positivos sobre a legibilidade e a manutenibilidade do código CSS produzido. Além disso, ao abordar a implementação da Context API, o aluno mostrou proficiência em gerenciar o estado da aplicação, utilizando contextos de forma eficaz para compartilhar dados entre os componentes. Sua capacidade de resolver desafios de comunicação e criar uma arquitetura de gerenciamento de estado sólida evidenciou seu compromisso com a qualidade e a eficiência no desenvolvimento de aplicações React."
+            }
+          ]
+        }
+      
+      
+      ]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
